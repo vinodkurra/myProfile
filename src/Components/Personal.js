@@ -22,7 +22,7 @@ function Personal() {
             <div className="awards-con">
                 <Awards />
                 <div className="socials-con">
-                <Language icon={git} icon2={ig} icon3={yt} text1={'English'} text2={'French'} text3={'Spanish'} title={'Languages'} />
+                {/* <Language icon={git} icon2={ig} icon3={yt} text1={'English'} text2={'French'} text3={'Spanish'} title={'Languages'} /> */}
                     <Language icon={git} icon2={ig} icon3={yt} text1={'@maclinz'} text2={'@testingdata'} text3={'@MacLinzUniversal'} title={'Socials'} />
                 </div>
             </div>
@@ -33,7 +33,7 @@ function Personal() {
 
 const PersonaStyled = styled.div`
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
     .skill-con{
         h4{
             padding-bottom: 2rem;
@@ -48,8 +48,6 @@ const PersonaStyled = styled.div`
             border-radius: 15px;
             margin: 1.4rem 0;
             .skills-btn{
-                display: grid;
-                grid-template-columns: 20px 200px;
                 span:first-child{
                     width: 10%;
                 }
@@ -62,7 +60,7 @@ const PersonaStyled = styled.div`
         .socials-con{
             display: flex;
             justify-content: space-between;
-            width: 100%100em;
+            width: 100%;
         }
     }
 `;

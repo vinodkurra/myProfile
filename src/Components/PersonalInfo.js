@@ -12,16 +12,18 @@ function PersonalInfo() {
     return (
         <PersonalInfoStyled>
             <div className="personal-info-con">
+            <h4>Maclinz Universal</h4>
                 <div className="avatar-con">
                     <div className="avatar">
                         <img src={avatar} alt="" />
                     </div>
                     <div className="right-avatar">
-                        <h4>Maclinz Universal</h4>
+                       
                         <p>Web Developer - Software Engineer - Lead Designer</p>
-                        <div className="contact-btn">Contact</div>
                     </div>
                 </div>
+                <div className="contact-btn">Contact</div>
+
                 <p className="about-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Et provident 
                     quis iure eius perferendis alias saepe, 
@@ -64,9 +66,18 @@ const PersonalInfoStyled = styled.div`
     //Personal info
     .personal-info-con{
         padding: 2.5rem 2rem;
+        .contact-btn{
+            background-color: #6BBE92;
+            color: #fff;
+            padding: .6rem .9rem;
+            text-align: center;
+            border-radius: 7px;
+            margin-top:20px;
+        }
         .avatar-con{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            margin-top:20px;
             .avatar{
                 width: 100%;
                 border-radius: 10px;
@@ -89,13 +100,7 @@ const PersonalInfoStyled = styled.div`
                 }
             }
 
-            .contact-btn{
-                background-color: #6BBE92;
-                color: #fff;
-                padding: .6rem .9rem;
-                text-align: center;
-                border-radius: 7px;
-            }
+            
 
         }
 

@@ -12,7 +12,7 @@ function Awards() {
             <AwardItem icon={award} number={'+51'} text={'Awards'} />
             <AwardItem icon={calander} number={'+21'} text={'On Schedule'} />
             <AwardItem icon={heads} number={'+90'} text={'Git Repos'} />
-            <AwardItem icon={award} number={'+21'} text={'Awards'} />
+            {/* <AwardItem icon={award} number={'+21'} text={'Awards'} /> */}
         </AwardsStyled>
     )
 }

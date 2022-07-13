@@ -9,7 +9,7 @@ import Skills from './Skills';
 
 function Tabs() {
     const [info, setInfo] = useState(data);
-    const [value, setValue] = useState(0);
+    const [value, setValue] = useState(info[0]);
 
 
     const renderData = () =>{

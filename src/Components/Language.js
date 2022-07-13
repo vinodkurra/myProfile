@@ -26,7 +26,7 @@ const LanguageStyled = styled.div`
     backdrop-filter: blur(9px);
     padding: 2rem 1rem;
     border-radius: 15px;
-    width: 48%;
+    width: 70%;
     h4{
         padding-bottom: 2.5rem;
     }
@@ -50,6 +50,7 @@ const LanguageStyled = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
         span{
             padding: 0.8rem 0 ;
         }
